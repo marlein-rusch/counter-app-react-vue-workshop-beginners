@@ -1,0 +1,26 @@
+@import './buttons.css';
+@import './spacing.css';
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    color: #212529;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.bg-light {
+    background-color:#f8f9fa;
+}
+
+.border-rounded-dark {
+    border: 1px solid #343a40;
+    border-radius: 0.25rem;
+}
