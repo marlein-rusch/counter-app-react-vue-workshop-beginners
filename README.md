@@ -1,9 +1,9 @@
 # About
 
-This app had been cloned from https://github.com/techomoro/ReactCounterApp.
-Is has then been adjusted to meet the needs of the React/Vue workshop held during the 8 February 2020 Let's Meet Together meet-up.
+This app was cloned from https://github.com/techomoro/ReactCounterApp.
+Is has then been modified to meet the needs of the React/Vue workshop held during the 8 February 2020 Let's Meet Together meet-up.
 
-- Meetup organizer: Vanessa Ho
+- Meet-up organizer: Vanessa Ho
 - Workshop organizers: Nienke Dekker & Marlein Rusch
 
 ## Workshop goals.
