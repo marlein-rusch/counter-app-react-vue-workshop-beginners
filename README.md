@@ -1,10 +1,17 @@
 # About
 
-This app was cloned from https://github.com/techomoro/ReactCounterApp.
-Is has then been modified to meet the needs of the React/Vue workshop held during the 8 February 2020 Let's Meet Together meet-up.
+This app was created for the React/Vue workshop held during the 8 February 2020 Let's Meet Together meet-up.
+React App by Marlein Rusch, and it's Vue counterpart by Nienke Dekker.
 
 - Meet-up organizer: Vanessa Ho
 - Workshop organizers: Nienke Dekker & Marlein Rusch
+
+## Setup
+
+- Clone the project
+- At root of project: `npm install` or `yarn`
+- At root of project: `npm start` or `yarn start` (runs app in development mode)
+- If not happening automatically: open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Workshop goals.
 
