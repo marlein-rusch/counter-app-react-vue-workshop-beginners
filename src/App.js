@@ -1,51 +1,24 @@
 import React, { Component } from 'react';
-import Button from './components/Button';
 
 export default class App extends Component {
-    constructor() {
-        super();
-        this.state = {
-            count: 0
-        }
-    }
+    // constructor
 
-    incrementCount = () => {
-        this.setState({
-            count: this.state.count + 1
-        });
-    }
+    // incrementCount method
 
-    decrementCount = () => {
-        this.setState({
-            count: this.state.count - 1
-        });
-    }
+    // decrementCount method
 
-    resetCount = () => {
-        this.setState({
-            count: 0
-        });
-    }
+    // resetCount method
+
+    // render
 
     render() {
-        let { count } = this.state
         return (
             <div className="container py-3">
                 <div className="bg-light border-rounded-dark p-3">
-                    <h2>Count: {count}</h2>
-                    <Button
-                        title={"-"}
-                        task={this.decrementCount}
-                    />
-                    <Button
-                        title={"+"}
-                        task={this.incrementCount}
-                    />
-                    <Button
-                        resetButton
-                        title={"Reset"}
-                        task={this.resetCount}
-                    />
+                    <h2>Count: we ain't got no count</h2>
+                    <button>-</button>
+                    <button>+</button>
+                    <button>Reset</button>
                 </div>
             </div>
         );
