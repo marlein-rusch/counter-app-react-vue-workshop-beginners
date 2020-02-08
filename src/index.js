@@ -4,6 +4,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 // import 'bootstrap/dist/css/bootstrap.css';
 import './styling/index.css'
+// Below 2 imports are necessary for codesandbox. Usually the index would do, because it alreayd import the buttons and spacing
+import './styling/spacing.css'
+import './styling/buttons.css'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
